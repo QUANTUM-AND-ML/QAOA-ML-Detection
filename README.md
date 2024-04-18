@@ -51,10 +51,10 @@ In this paper, we proposed an **improved QAOA-based ML detection method**. In ou
 **Figure 1.** The specific workflow of the improved QAOA based ML detection.
 
 ## Our contributions
-*     We derived a more **compact and universal analytical expression** for the cost function of the *1*-level QAOA, providing a theoretical basis for analyzing the performance of QAOA in ML detection.
-*     We proposed an optimization algorithm for QAOA circuits used in ML detection problems, namely the **Optimal CNOT Gate Elimination and Circuit Parallelization algorithm**. This algorithm significantly reduces the number of CNOT gates and the circuit depth in QAOA, thus mitigating the noise impact during circuit execution.
-*     We introduced a parameter initialization scheme based on the **Bayesian Optimization algorithm**, which learns high-quality initial parameters by optimizing a set of small-scale and classically simulable problem instances. Our initialization scheme accelerates the convergence of the cost function to lower local minima and enhances resistance to circuit noise, greatly improving the probability of finding the optimal solution.
-*     We provided a series of numerical simulation results to demonstrate the advantages and value of our proposed scheme.
+* We derived a more **compact and universal analytical expression** for the cost function of the *1*-level QAOA, providing a theoretical basis for analyzing the performance of QAOA in ML detection.
+* We proposed an optimization algorithm for QAOA circuits used in ML detection problems, namely the **Optimal CNOT Gate Elimination and Circuit Parallelization algorithm**. This algorithm significantly reduces the number of CNOT gates and the circuit depth in QAOA, thus mitigating the noise impact during circuit execution.
+* We introduced a parameter initialization scheme based on the **Bayesian Optimization algorithm**, which learns high-quality initial parameters by optimizing a set of small-scale and classically simulable problem instances. Our initialization scheme accelerates the convergence of the cost function to lower local minima and enhances resistance to circuit noise, greatly improving the probability of finding the optimal solution.
+* We provided a series of numerical simulation results to demonstrate the advantages and value of our proposed scheme.
 
 ## Results display
 **Table 1.** Noiseless expectation values of random circuits with different number of qubits and depth of circuits are predicted. The GNNs estimator is trained using dataset consisting of 10000 classically simulated quantum circuits and epoch is set as 50. In the table, “*N*” represents the number of qubits, and “*P*” represents the circuit depth.
