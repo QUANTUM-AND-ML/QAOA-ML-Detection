@@ -37,18 +37,24 @@ Relevant scripts and data for the paper entitled "Output Estimation of Quantum C
 
 ## Table of contents
 * [**Main work**](#Main-work)
+* [**Our contributions**](#Our-contributions)
 * [**Results display**](#Results-display)
 * [**Python scripts**](#Python-scripts)
 * [**Dependencies**](#Dependencies)
 
 ## Main work
-In this paper, motivated by the natural graph representation of quantum circuits, we propose a **Graph Neural Networks** (*GNNs*) based scheme to **predict output expectation values of quantum circuits under noisy and noiseless situations**. We first generate two large datasets which are classically simulated quantum circuits with analytical expectation values and random quantum circuits with noisy expectation values obtained on noisy simulators. Then, we transform each circuit in above datasets into the corresponding graph with gates and circuit properties as node features, where noise properties are embed as node features for noisy expectation values estimation. Next, graph neural network estimator is trained to predict single-qubit and two-qubits noisy and noiseless expectation values. Evaluated on 100 quantum circuits, the graph neural network estimator can achieve more than **0.90 $R^2$ scores**, up to **0.998** and **0.991 $R^2$ scores** under noiseless and noisy situations. Notably, our GNNs estimator is designed to be scalable, where the GNNs estimator trained using small-scale quantum circuits with few qubits and low depth of quantum circuits can effectively predict larger-scale quantum circuits.
-
+In this paper, we proposed an **improved QAOA-based ML detection method**. In our scheme, we first derived the *universal and compact analytical expression* for the expectation value of the $1$-level QAOA. Subsequently, we introduced an optimization algorithm for QAOA circuits used in ML detection problems, which *significantly reduces the number of CNOT gates and the circuit depth* in QAOA, thereby alleviating the impact of circuit noise during execution. Finally, the Bayesian optimization based *parameters initialization* is proposed to improve the convergence of the cost function optimization and the probability measuring the exact solution. Through theoretical analysis and numerical experiments, we demonstrated the significant advantages of the proposed scheme. 
 <p align="center">
-<img src="figures/Figure_1.png" alt="Figure 1" width="800">
+<img src="figures/workflow.png" alt="Figure 1" width="800">
 </p>
 
-**Figure 1.** The framework for expectation value prediction. **a**) Generate random quantum circuits. **b**) Transform the random quantum circuits into graph structures. **c**) Incorporate noise information into the graph nodes of the quantum circuits, train the graph neural network, and predict the expectation values of quantum circuits.
+**Figure 1.** The specific workflow of the improved QAOA based ML detection.
+
+## Our contributions
+*We derived a more **compact and universal analytical expression** for the cost function of the *1*-level QAOA, providing a theoretical basis for analyzing the performance of QAOA in ML detection.
+*We proposed an optimization algorithm for QAOA circuits used in ML detection problems, namely the **Optimal CNOT Gate Elimination and Circuit Parallelization algorithm**. This algorithm significantly reduces the number of CNOT gates and the circuit depth in QAOA, thus mitigating the noise impact during circuit execution.
+*We introduced a parameter initialization scheme based on the **Bayesian Optimization algorithm**, which learns high-quality initial parameters by optimizing a set of small-scale and classically simulable problem instances. Our initialization scheme accelerates the convergence of the cost function to lower local minima and enhances resistance to circuit noise, greatly improving the probability of finding the optimal solution.
+*We provided a series of numerical simulation results to demonstrate the advantages and value of our proposed scheme.
 
 ## Results display
 **Table 1.** Noiseless expectation values of random circuits with different number of qubits and depth of circuits are predicted. The GNNs estimator is trained using dataset consisting of 10000 classically simulated quantum circuits and epoch is set as 50. In the table, “*N*” represents the number of qubits, and “*P*” represents the circuit depth.
