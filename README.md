@@ -7,7 +7,7 @@
 
 
 <p align="center">
-    <a href="https://github.com/QUANTUM-AND-ML/QaML/blob/main/LICENSE">
+    <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML_Detection/blob/main/LICENSE">
         <img alt="MIT License" src="https://img.shields.io/github/license/QUANTUM-AND-ML/QAOA-ML_Detection">
     </a>
     <a href="https://www.python.org/downloads/release/python-3813/">
