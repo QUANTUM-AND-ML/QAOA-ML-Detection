@@ -68,7 +68,7 @@ In this paper, we proposed an **improved QAOA-based ML detection method**. In ou
 <img src="figures/figure2.png" alt="Figure 3" width="800">
 </p>
 
-**Figure 3.** Comparing the BER of different schemes with N_{t} = 6.
+**Figure 3.** Comparing the BER of different schemes with $N_{t} = 6$.
 
 <p align="center">
 <img src="figures/figure3.png" alt="Figure 4" width="800">
