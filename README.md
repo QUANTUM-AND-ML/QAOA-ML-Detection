@@ -59,19 +59,19 @@ In this paper, we proposed an **improved QAOA-based ML detection method**. In ou
 ## Results display
 
 <p align="center">
-<img src="figures/figure1.png" alt="Figure 2" width="600">
+<img src="figures/figure1.png" alt="Figure 2" width="800">
 </p>
 
-**Figure 2.** The decoding results obtained by N_{t} = 4, p = 1, 2, 3, 4 QAOA circuits.
+**Figure 2.** The decoding results obtained by $N_{t} = 4$, $p = 1, 2, 3, 4$ QAOA circuits.
 
 <p align="center">
-<img src="figures/figure2.png" alt="Figure 3" width="550">
+<img src="figures/figure2.png" alt="Figure 3" width="800">
 </p>
 
 **Figure 3.** Comparing the BER of different schemes with N_{t} = 6.
 
 <p align="center">
-<img src="figures/figure3.png" alt="Figure 4" width="550">
+<img src="figures/figure3.png" alt="Figure 4" width="800">
 </p>
 
 **Figure 4.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
