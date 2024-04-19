@@ -57,27 +57,25 @@ In this paper, we proposed an **improved QAOA-based ML detection method**. In ou
 * We provided a series of numerical simulation results to demonstrate the advantages and value of our proposed scheme.
 
 ## Results display
-**Table 1.** Noiseless expectation values of random circuits with different number of qubits and depth of circuits are predicted. The GNNs estimator is trained using dataset consisting of 10000 classically simulated quantum circuits and epoch is set as 50. In the table, “*N*” represents the number of qubits, and “*P*” represents the circuit depth.
-<p align="center">
-<img src="figures/Table_1.png" alt="Table 1" width="700">
-</p>
-
-**Table 2.** Noisy expectation values of random circuits with different number of qubits and depth of circuits are predicted. The GNNs estimator is trained using dataset consisting of 10000 classically simulated quantum circuits and epoch is set as 50. In the table, “*N*” represents the number of qubits, and “*P*” represents the circuit depth.
-<p align="center">
-<img src="figures/Table_2.png" alt="Table 1" width="700">
-</p>
 
 <p align="center">
-<img src="figures/Figure_2.png" alt="Figure 2" width="600">
+<img src="figures/figure1.png" alt="Figure 2" width="600">
 </p>
 
-**Figure 2.** The scalable performance of the GNNs estimator. The GNNs estimator is trained using random circuit datasets with $\tilde{N}$ or $\tilde{N} _{withnoise} =$ 3, 5 and 7 qubits under noisy and noiseless situations. The GNNs estimator after training is used to predict the expectation values of random circuits with $N =$ 7, 11 and 16 qubits.
+**Figure 2.** The decoding results obtained by N_{t} = 4, p = 1, 2, 3, 4 QAOA circuits.
 
 <p align="center">
-<img src="figures/Figure_3.png" alt="Figure 3" width="550">
+<img src="figures/figure2.png" alt="Figure 3" width="550">
 </p>
 
-**Figure 3.** The scalable performance of the GNNs estimator. The comparison of the scalable performance between the GNNs estimator and the CNNs estimator. The quantum circuits with 3, 4, and 5 qubits are used as the training set to predict the expectation values of quantum circuits with 7, 11, and 16 qubits.
+**Figure 3.** Comparing the BER of different schemes with N_{t} = 6.
+
+<p align="center">
+<img src="figures/figure3.png" alt="Figure 4" width="550">
+</p>
+
+**Figure 4.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
+
 
 ## Python scripts
 Here is the **brief introduction** to each python file for better understanding and usage:
