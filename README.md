@@ -16,7 +16,7 @@
     <a href="https://github.com/search?q=repo%3AQUANTUM-AND-ML%2FQaML++language%3APython&type=code">
         <img alt="Language" src="https://img.shields.io/github/languages/top/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
-   <a href="https://github.com/QUANTUM-AND-ML/QaML/activity">
+   <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML_Detection/activity">
         <img alt="Activity" src="https://img.shields.io/github/last-commit/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
        <a href="https://www.nsfc.gov.cn/english/site_1/index.html">
