@@ -93,4 +93,4 @@ Here is the **brief introduction** to each python file for better understanding 
 - 3.9 >= Python >= 3.7 (Python 3.10 may have the `concurrent` package issue for Qiskit)
 - Qiskit >= 0.36.1
 - Qiskit-aer >= 0.12.0
-- Parallel computing may require NVIDIA GPUs acceleration
+- The calculation may require the large amount of RAM
