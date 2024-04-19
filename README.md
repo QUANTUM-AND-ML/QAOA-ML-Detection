@@ -92,5 +92,5 @@ Here is the **brief introduction** to each python file for better understanding 
 ## Dependencies
 - 3.9 >= Python >= 3.7 (Python 3.10 may have the `concurrent` package issue for Qiskit)
 - Qiskit >= 0.36.1
-- PyTorch >= 1.8.0
+- Qiskit-aer >= 0.12.0
 - Parallel computing may require NVIDIA GPUs acceleration
