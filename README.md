@@ -13,7 +13,7 @@
     <a href="https://www.python.org/downloads/release/python-3813/">
         <img alt="Version" src="https://img.shields.io/badge/Python-3.8-orange">
     </a>
-    <a href="https://github.com/search?q=repo%3AQUANTUM-AND-ML%2FQaML++language%3APython&type=code">
+    <a href="https://github.com/search?q=repo%3AQUANTUM-AND-ML%2FQAOA-ML_Detection++language%3APython&type=code">
         <img alt="Language" src="https://img.shields.io/github/languages/top/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
    <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML_Detection/activity">
