@@ -7,16 +7,16 @@
 
 
 <p align="center">
-    <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML_Detection/blob/main/LICENSE">
+    <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML-Detection/blob/main/LICENSE">
         <img alt="MIT License" src="https://img.shields.io/github/license/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
     <a href="https://www.python.org/downloads/release/python-3813/">
         <img alt="Version" src="https://img.shields.io/badge/Python-3.8-orange">
     </a>
-    <a href="https://github.com/search?q=repo%3AQUANTUM-AND-ML%2FQAOA-ML_Detection++language%3APython&type=code">
+    <a href="https://github.com/search?q=repo%3AQUANTUM-AND-ML%2FQAOA-ML-Detection++language%3APython&type=code">
         <img alt="Language" src="https://img.shields.io/github/languages/top/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
-   <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML_Detection/activity">
+   <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML-Detection/activity">
         <img alt="Activity" src="https://img.shields.io/github/last-commit/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
        <a href="https://www.nsfc.gov.cn/english/site_1/index.html">
