@@ -51,10 +51,11 @@ In this paper, we proposed an **improved QAOA-based ML detection method**. In ou
 **Figure 1.** The specific workflow of the improved QAOA based ML detection.
 
 ## Our contributions
-* We derived a more **compact and universal analytical expression** for the cost function of the *1*-level QAOA, providing a theoretical basis for analyzing the performance of QAOA in ML detection.
-* We proposed an optimization algorithm for QAOA circuits used in ML detection problems, namely the **Optimal CNOT Gate Elimination and Circuit Parallelization algorithm**. This algorithm significantly reduces the number of CNOT gates and the circuit depth in QAOA, thus mitigating the noise impact during circuit execution.
-* We introduced a parameter initialization scheme based on the **Bayesian Optimization algorithm**, which learns high-quality initial parameters by optimizing a set of small-scale and classically simulable problem instances. Our initialization scheme accelerates the convergence of the cost function to lower local minima and enhances resistance to circuit noise, greatly improving the probability of finding the optimal solution.
-* We provided a series of numerical simulation results to demonstrate the advantages and value of our proposed scheme.
+* We provide a **comprehensive scheme** for QAOA based ML detection, encompassing the transformation of the ML detection model, the construction and optimization of QAOA circuits, the training of circuit parameters, and numerical simulations incorporating real noise. This comprehensive scheme enables the decoding of received signals, laying the foundation for the practical use of QAOA in ML detection.
+* We derive a more **compact and universal analytical expression** for the cost function of the $1$-level QAOA, aiding in the analysis of solutions for small-scale problems with sparse channel matrices.
+* We propose an optimization algorithm for QAOA circuits used in ML detection problems, namely the **CNOT Gate Elimination and Circuit Parallelization algorithm**. This algorithm significantly reduces the number of error-prone CNOT gates and the circuit depth in QAOA, thus mitigating the noise impact during circuit execution.
+* We introduce a parameter initialization scheme based on the **Bayesian Optimization algorithm**, which learns high-quality initial parameters by optimizing a set of small-scale and classically simulable problem instances. Our initialization scheme accelerates the convergence of the cost function to lower minimum value and enhances resistance to circuit noise, greatly improving the probability of finding the optimal solution.
+* We provide a series of **numerical simulation** results to demonstrate the advantages and value of our proposed scheme.
 
 ## Results display
 
