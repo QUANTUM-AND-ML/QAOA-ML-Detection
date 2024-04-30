@@ -23,7 +23,5 @@ demodulated_symbols = np.where(estimated_transmit_signal > threshold, 1, -1)
 # Decoding
 decoded_bits = ((demodulated_symbols + 1) // 2).T  # Map 1 to 1, -1 to 0
 
-#print(decoded_bits)
-
 # Compare two row vectors, return a boolean array indicating whether corresponding elements are the same
 element_wise_comparison = transmitter_symbols == decoded_bits
