@@ -33,7 +33,7 @@
 
 
 ## Quantum & Machine Learning
-Relevant scripts and data for the paper entitled "Output Estimation of Quantum Circuits based on Graph Neural Networks"
+Relevant scripts and data for the paper entitled "Low-depth Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection in Massive MIMO"
 
 ## Table of contents
 * [**Main work**](#Main-work)
