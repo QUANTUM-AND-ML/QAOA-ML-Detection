@@ -17,7 +17,7 @@
         <img alt="Language" src="https://img.shields.io/github/languages/top/QUANTUM-AND-ML/QUANTUM-QuantumSimulation">
     </a>
    <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML-Detection/activity">
-        <img alt="Activity" src="/github/last-commit/micromatch/micromatchn">
+        <img alt="Activity" src="https://img.shields.io/github/last-commit/QUANTUM-AND-ML/QAOA-ML-Detection">
     </a>
        <a href="https://www.nsfc.gov.cn/english/site_1/index.html">
         <img alt="Fund" src="https://img.shields.io/badge/supported%20by-NSFC-green">
