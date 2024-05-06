@@ -30,7 +30,7 @@ for i in range(num_samples):
             depolarizing_error((gateErrors[3][i + 1] + gateErrors[3][k + 1]) / 2, 2),
             ['cx','rzz'], [i, k])
 
-# 加入T1和T2
+# Incorporate T1 and T2
 # Instruction times (in nanoseconds)
 time_reset = 1000  # 1 microsecond
 time_measure = 1000  # 1 microsecond
