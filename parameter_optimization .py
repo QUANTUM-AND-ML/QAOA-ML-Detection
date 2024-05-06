@@ -228,6 +228,11 @@ def objective_function_for_Bayesian(params_0, params_1, params_2, params_3, para
         # Multiply the expectation value of the current Hamiltonian term by its coefficient and accumulate it to the total expectation value
         expectation += coeff * term_expectation
 
+    # To normalize the expected values
+    total_counts = sum(counts_circuit.values())
+    expectation /= total_counts
+
+    return -1 * expectation
 
 def objective_function_for_COBYLA1(params):
 
