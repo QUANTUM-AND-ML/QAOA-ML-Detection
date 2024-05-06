@@ -69,7 +69,7 @@ for j in range(num_samples):
     for k in range(num_samples):
         noise_model.add_quantum_error(errors_cx[j][k], "cx", [j, k])
 
-# 添加读出错误
+# Add readout error
 # Measurement miss-assignement probabilities
 for i in range(num_samples):
     noise_model.add_readout_error(ReadoutError([[1 - P10[i], P10[i]], [P01[i], 1 - P01[i]]]), [i])
