@@ -184,5 +184,3 @@ def qaoa_circuit(num_qubits, depth_p, node_dict, equivalent_node_number, edge_co
     qaoa_symmetry.draw(output='mpl')
     plt.show()
     return qaoa_symmetry, G
-
-print('误码率BER：', wrong_number_of_bits / ( num_samples * number_of_signals_transmitted))
