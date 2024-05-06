@@ -283,3 +283,5 @@ def objective_function_for_COBYLA1(params):
     total_counts = sum(counts_circuit.values())
     expectation /= total_counts
     values1.append(expectation)
+
+    return expectation
