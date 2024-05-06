@@ -81,14 +81,10 @@ In massive multiple-input and multiple-output (MIMO) systems, the problem of max
 ## Python scripts
 Here is the **brief introduction** to each python file for better understanding and usage:
 
-* "main.py" primarily includes dataset splitting and the **training** and **testing** of the neural network.
-* "Dataset.py" mainly includes the generation and saving of a large amount of datasets.
-* "CNN_generate_datas.py" mainly implements the generation of random quantum circuits used for training **Convolutional Neural Networks** (*CNNs*), as mentioned in the paper "[**Supervised learning of random quantum circuits via scalable neural networks**](https://iopscience.iop.org/article/10.1088/2058-9565/acc4e2)."
-* "GNN_generate_datas.py" mainly implements the generation of random quantum circuits used for training **Graph Neural Networks** (*GNNs*) to compute the ground-state energy of hydrogen molecules.
-* "circuit_to_graph.py" primarily defines a class that allows **the conversion of quantum circuits into graphs**.
-* "expectation_and_ground_state_energy_calculation.py" mainly defines functions for calculating the expectation values of quantum circuits and the ground state energy of the hydrogen molecule.
-* "CNNs.py" and "GNNs.py" respectively contain the architectures of the constructed **Convolutional Neural Networks** (*CNNs*) and **Graph Neural Networks** (*GNNs*).
-* "simplification.py" mainly contains some rules for **simplifying quantum circuits**.
+* "main.py" primarily includes the generation of **transmission signals**, addition of **AWGN noise**, **SNR**, and **channel matrixk**.
+* "circuit_noise.py" mainly involves the addition of noise from **real quantum devices** during quantum circuit simulation, including gate errors, T1 and T2 relaxation errors, and readout errors.
+* "circuit_optimization.py" primarily involves optimizing QAOA quantum circuits using the **CNOT Gate Elimination and Circuit Parallelization algorithm**, significantly reducing the number of CNOT gates and the depth of the circuit."
+* "parameter_optimization.py" primarily involves **the initialization and training of parameters** in QAOA circuits.
 
 ## Dependencies
 - 3.9 >= Python >= 3.7 (Python 3.10 may have the `concurrent` package issue for Qiskit)
