@@ -1,7 +1,4 @@
-from bayes_opt import BayesianOptimization
 import numpy as np
-from qiskit import Aer, execute, QuantumCircuit, QuantumRegister, transpile
-from qiskit.circuit import Gate, Instruction, Parameter
 
 # Generate the BPSK signal sequence
 def generate_bpsk_signal(num_symbols):
