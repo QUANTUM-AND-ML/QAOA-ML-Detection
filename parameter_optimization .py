@@ -187,7 +187,6 @@ estimator = Estimator()   # Since VQE uses wavefunction estimation, the evaluato
 initial_params = np.random.uniform(0, 2*np.pi, 2 * depth_p)
 
 def objective_function_for_Bayesian(params_0, params_1, params_2, params_3, params_4, params_5, params_6, params_7, params_8, params_9, params_10, params_11, params_12, params_13, params_14, params_15):
-
     params = [params_0, params_1,params_2, params_3, params_4, params_5, params_6, params_7, params_8, params_9, params_10, params_11, params_12, params_13, params_14, params_15]
     pure_qaoa_for_Bayesian = pure_qaoa_circuit_for_Bayesian(qubits, depth_p, params, A, b)
     pure_qaoa_for_Bayesian.measure_all()
