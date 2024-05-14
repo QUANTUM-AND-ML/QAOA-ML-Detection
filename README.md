@@ -79,11 +79,11 @@ In massive multiple-input and multiple-output (MIMO) systems, the problem of max
 
 
 ## Python scripts
-Here is the **brief introduction** to each python file for better understanding and usage:
+Here is the **brief introduction** to each Python file for better understanding and usage:
 
 * "main.py" primarily includes the generation of **transmission signals**, addition of **AWGN noise**, **SNR**, and **channel matrixk**.
 * "circuit_noise.py" mainly involves the addition of noise from **real quantum devices** during quantum circuit simulation, including gate errors, T1 and T2 relaxation errors, and readout errors.
-* "circuit_optimization.py" primarily involves optimizing QAOA quantum circuits using the **CNOT Gate Elimination and Circuit Parallelization algorithm**, significantly reducing the number of CNOT gates and the depth of the circuit."
+* "circuit_optimization.py" primarily involves optimizing QAOA quantum circuits using the **CNOT Gate Elimination and Circuit Parallelization algorithm**, significantly reducing the number of CNOT gates and the depth of the circuit.
 * "parameter_optimization.py" primarily involves **the initialization and training of parameters** in QAOA circuits.
 
 ## Dependencies
