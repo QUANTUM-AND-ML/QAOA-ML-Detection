@@ -1,5 +1,5 @@
 <p align="center">
-<img src="figures/Q&ML.png" alt="Q&ML Logo" width="600">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/Q&ML.png" alt="Q&ML Logo" width="600">
 </p>
 
 <h2><p align="center">A PyThon Library for Quantum Computation and Machine Learning</p></h2>
@@ -45,7 +45,7 @@ Relevant scripts and data for the paper entitled "Low-depth Quantum Approximate 
 ## Main work
 In massive multiple-input and multiple-output (MIMO) systems, the problem of maximum likelihood (ML) detection, reformed into a combinatorial optimization problem, is NP-hard and becomes increasingly complex with more transmitting antennas and symbols. The quantum approximate optimization algorithm (QAOA), recognized as a prime candidate for execution on noisy intermediate-scale quantum (NISQ) devices, has demonstrated a quantum advantage in approximately solving combinatorial optimization problems. Hence, in this paper, a **comprehensive QAOA based ML detection scheme** is proposed for binary symbols. In the proposed framework, recognizing that solving small-scale problems with the sparse channel matrice only requires the use of a 1-level QAOA, we first derive a more universal and concise analytical expression of the expectation value of the 1-level QAOA, compared to the state-of-the-art schemes. This advancement aids in the analysis of solutions for small-scale problems. Subsequently, for large-scale problems that require more than 1-level QAOA, we introduce the CNOT Gate Elimination and Circuit Parallelization algorithm. This significantly reduces the number of error-prone CNOT gates and circuit depth, thereby diminishing the adverse effects of noise. Additionally, we propose a Bayesian Optimization based Parameters Initialization algorithm, which assists in obtaining initial parameters for large-scale QAOA from small-scale and classical instances, thereby increasing the likelihood of identifying the precise solution. Finally, in numerical experiments, we evaluated the bit error rate (BER) performance of our improved QAOA based ML detector both with and without noise, demonstrating its resistance to noise. Impressively, at an SNR of 15 and in the absence of noise, the performance improved by $6.7 \times$, while in noisy conditions, the improvement was $7.8 \times$. Further, by analyzing the convergence curves of the loss function, the proposed scheme also showed significant advantages in both parameter convergence and the minimum convergence value.
 <p align="center">
-<img src="figures/workflow.png" alt="Figure 1" width="800">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/workflow.png" alt="Figure 1" width="800">
 </p>
 
 **Figure 1.** The specific workflow of the improved QAOA based ML detection.
@@ -60,19 +60,19 @@ In massive multiple-input and multiple-output (MIMO) systems, the problem of max
 ## Results display
 
 <p align="center">
-<img src="figures/figure1.png" alt="Figure 2" width="700">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure1.png" alt="Figure 2" width="700">
 </p>
 
 **Figure 2.** The decoding results obtained by $N_{t} = 4$, $p = 1, 2, 3, 4$ QAOA circuits.
 
 <p align="center">
-<img src="figures/figure2.png" alt="Figure 3" width="700">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure2.png" alt="Figure 3" width="700">
 </p>
 
 **Figure 3.** Comparing the BER of different schemes with $N_{t} = 6$.
 
 <p align="center">
-<img src="figures/figure3.png" alt="Figure 4" width="700">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure3.png" alt="Figure 4" width="700">
 </p>
 
 **Figure 4.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
