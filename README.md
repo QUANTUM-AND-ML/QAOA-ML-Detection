@@ -60,19 +60,19 @@ In massive multiple-input and multiple-output (MIMO) systems, the problem of max
 ## Results display
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure1.png" alt="Figure 2" width="700">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure_1a.png" alt="Figure 2" width="700">
 </p>
 
-**Figure 2.** The decoding results obtained by $N_{t} = 4$, $p = 1, 2, 3, 4$ QAOA circuits.
+**Figure 2.** The decoding results obtained by $N_{t} = 4$, $p = 1, 2, 3, 4$ QAOA circuits with different channel matrices.
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure2.png" alt="Figure 3" width="700">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure_2b.png" alt="Figure 3" width="700">
 </p>
 
 **Figure 3.** Comparing the BER of different schemes with $N_{t} = 6$.
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure3.png" alt="Figure 4" width="700">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QAOA-ML-Detection@main/figures/figure_3c.png" alt="Figure 4" width="700">
 </p>
 
 **Figure 4.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
